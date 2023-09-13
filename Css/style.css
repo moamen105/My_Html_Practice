@@ -2,7 +2,7 @@ h1,h3
 {
     color:blue;
 }
-nav
+.mani-nav
 {
     background-color: #99582a;
 }
@@ -13,4 +13,7 @@ a
     padding-right: 15px;
     font-family: sans-serif, fallback-font;
     text-decoration: none;
+}
+#selected{
+    color: #9d0208;
 }
