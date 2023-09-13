@@ -1,0 +1,16 @@
+h1,h3
+{
+    color:blue;
+}
+nav
+{
+    background-color: #99582a;
+}
+a
+{
+    font-size: 20px;
+    color: #ffc300;
+    padding-right: 15px;
+    font-family: sans-serif, fallback-font;
+    text-decoration: none;
+}
