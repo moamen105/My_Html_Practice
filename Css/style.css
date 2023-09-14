@@ -34,7 +34,7 @@ h1,h3
 
 /*---------------- change the font family Style of all texts----------------*/
 
-*{
+body{
     font-family: sans-serif;
 }
 
@@ -42,8 +42,7 @@ h1,h3
 
 #productimg
 {
-    border: 3px solid #faa307;
-    border-radius: 50px;
+    border-radius: 25px 25px 0 0;
 }
 
 /*---------------------------- add welcome video Style ----------------------------*/
@@ -51,4 +50,15 @@ h1,h3
 .Wel_Vid
 {
     width: 500px;
+}
+
+/*---------------------------- Product Style ----------------------------*/
+
+.Pro_Style
+{
+    background-color: #E9E6F0;
+    width: 250px;
+    padding-top: 0px;
+    border-radius: 25px;
+
 }
