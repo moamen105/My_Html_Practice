@@ -11,6 +11,7 @@
 
 </head>
 <body>
+
     <!-- ****************** Nav Bar ****************** -->
 
     <img class = "logo" src="Image/Logo.svg" alt="Page Logo">
@@ -21,7 +22,42 @@
         <a href="Profile.html">Profile</a>
         <a href="Sign Up.html">Sign Up</a>
     </nav><br><hr>
-    <h1>Sign Up</h1><hr>
+    <h1>Sign Up</h1><hr><br>
+
+
+    <!-- ****************** Create registeration form ****************** -->
+
+
+    <form>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id = "name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id = "email" required><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id = "pass" required><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id = "phone" required><br>
+
+        <label for="date">Date Of Birth:</label><br>
+        <input type="date" id = "date" required><br><br>
+
+        <label for="image">Upload image</label><br>
+        <input type="file" id = "image"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id = "male" name="gender"><label>Male</label><br>
+        <input type="radio" id = "female" name="gender"><label>Female</label><br><br>
+
+        <input type="checkbox" id = "term" required>
+        <label for="term">I accept <a href="">terms of use</a>.</label><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
 
 </body>
 </html>

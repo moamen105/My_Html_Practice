@@ -4,17 +4,20 @@
 {
     background-color: #99582a;
     text-align: center;
-}
-a
-{
     font-size: 20px;
     color: #ffc300;
     padding-right: 15px;
     font-family: sans-serif, fallback-font;
     text-decoration: none;
 }
+
 #selected{
     color: #9d0208;
+}
+
+a
+{
+    text-decoration: none;
 }
 
 
