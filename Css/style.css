@@ -70,10 +70,9 @@ body{
     background-color: #52796f;
     color: white;
     border-radius: 10px;
+    text-align: center;
     padding: 10px;
     width: 120px;
-    text-align: center;
-    margin-left: 10px;
 }
 
 footer
