@@ -57,9 +57,18 @@ body{
     width: 250px;
     padding-top: 0px;
     border-radius: 25px;
+    margin: auto;
+    text-align: center;
 
 }
 
+.text_pro_style
+{
+    padding: 10px;
+}
+
+
+/*---------------------------- Footer Style ----------------------------*/
 
 .footer_icons
 {
