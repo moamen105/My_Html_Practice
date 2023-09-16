@@ -115,22 +115,25 @@ form
     transition-duration: 0.5s;
 }
 
-form:hover
-{
-    width: 450px;
-    background-color: orange;
-}
 
 .intery
 {
     width: 98%;
     height: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     margin-bottom: 15px;
     font-size: 20px;
     padding-left: 10px;
-    outline-color:#14213d ;
+    transition-duration: 0.5s;
+    
+}
+
+.intery:focus
+{
+    outline:  solid 1px orange ;
+    background-color: #E9E6F0;
+    border-radius: 5px;
 }
 
 form a
@@ -141,16 +144,14 @@ form a
 button
 {
     width: 100%;
-    height: 35px;
     margin-top: 20px;
     background-color: #5762D5;
     border-radius: 10px;
     font-size: 25px;
     border: none;
-    padding: 0;
+    padding: 10px 0;
     font-weight: bold;
     color: white;
-    text-align: center;
 }
 button:hover
 {
