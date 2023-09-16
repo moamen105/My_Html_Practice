@@ -53,6 +53,8 @@ body{
 .Wel_Vid
 {
     width: 500px;
+    margin: 30px auto;
+    display: block;
 }
 
 /*---------------------------- Product Style ----------------------------*/
