@@ -24,7 +24,6 @@
 .main-nav a:hover
 {
     color: white;
-
 }
 
 
@@ -113,6 +112,13 @@ form
     border: solid 1px #3c404a1d;
     font-size: 20px;
     font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+form:hover
+{
+    width: 450px;
+    background-color: orange;
 }
 
 .intery
@@ -124,6 +130,7 @@ form
     margin-bottom: 15px;
     font-size: 20px;
     padding-left: 10px;
+    outline-color:#14213d ;
 }
 
 form a
