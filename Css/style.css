@@ -1,15 +1,32 @@
 /*---------------------------- Nav Bar Style ----------------------------*/
 
+header
+{
+    display: flex;
+    background-color: #14213d ;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#logo
+{
+    height: 40px;
+    margin: 15px 0 0 0;
+}
+
+header .main-nav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .main-nav
 {
-    background-color: #14213d;
-    text-align: center;
     font-size: 25px;
-    padding-right: 15px;
     font-family: sans-serif, fallback-font;
     text-decoration: none;
-    border: solid 0px white;
-    padding: 20px 0 20px 0;
+    padding: 10px 0;
+
 }
 
 .main-nav a
@@ -93,7 +110,7 @@ footer
     background-color: #2f3e46;
     padding: 10px;
     text-align: center;
-    width: 100%;
+    width: 98%;
     
 }
 
