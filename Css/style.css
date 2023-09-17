@@ -193,7 +193,7 @@ footer
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #2f3e46;
+    background-color: #14213d;
     padding: 10px;
     text-align: center;
     width: full;
@@ -214,8 +214,8 @@ footer a
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
-    background-color: #52796f;
-    color: white;
+    background-color: #e5e5e5;
+    color: #14213d;
     border-radius: 10px;
     text-align: center;
     padding: 10px 20px;
