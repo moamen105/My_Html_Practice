@@ -1,28 +1,15 @@
-var breaks = [];
-var counter = 1;
-var number = 1;
+var arr = [2, 7, 9, 1, 6, 1, 6, 3];
 
 
-function pomodoro()
+function isSpecial(arr)
 {
-    if (counter === 4)
+    for (var i = 0; i < arr.length; i++)
     {
-        breaks.push(15);
-        counter = 1;
-    }
-            
-    else
-    {
-        breaks.push(5);
-        counter++;
-    }
-
-
+        if((i % 2 === 0 && arr[i] % 2 !== 0) || (i % 2 !== 0 && arr[i] % 2 === 0))
+        {
+            return false ;
+        }
 
 }
-while(number <= 9){
-    pomodoro();
-    number++;
+    return true;
 }
-console.log(breaks);
-
