@@ -130,6 +130,16 @@ header .main-nav a:hover
 }
 
 /*---------------------------- Product Style ----------------------------*/
+.review{
+    opacity: 0%;
+    position: absolute;
+    margin: 150px 0 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.5s;
+
+}
 .text-product
 {
     display: flex;

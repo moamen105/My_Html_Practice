@@ -1,1 +1,9 @@
-document.getElementsByClassName("button-main")[0].style.boxShadow = "5px 10px 30px #70798C";
+function review() {
+    document.querySelector(".review").style.opacity = '100%';
+    document.querySelector("#productimg").style.filter = "brightness(0.4)"
+}
+
+function unreview() {
+    document.querySelector(".review").style.opacity = '0%';
+    document.querySelector("#productimg").style.brightness = '100%';
+}
