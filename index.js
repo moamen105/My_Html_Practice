@@ -43,3 +43,17 @@ function unreview(x) {
 
     }
 }
+
+sun = document.getElementById("sun")
+moon = document.getElementById("moon")
+
+function darkMode()
+{
+    sun.style.display=("block");
+    moon.style.display=("none");
+}
+function lightMode()
+{
+    sun.style.display=("none");
+    moon.style.display=("block");
+}
