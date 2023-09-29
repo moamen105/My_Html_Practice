@@ -123,10 +123,11 @@ header .main-nav a:hover
 }
 /*---------------------------- add border to product image Style ----------------------------*/
 
-#productimg
+.productimg
 {
     border-radius: 25px 25px 0 0;
     width: 200px;
+    transition-duration: 0.5s;
 }
 
 /*---------------------------- Product Style ----------------------------*/
@@ -138,6 +139,7 @@ header .main-nav a:hover
     font-weight: bold;
     color: white;
     transition-duration: 0.5s;
+    z-index: 1;
 
 }
 .text-product
@@ -168,7 +170,6 @@ header .main-nav a:hover
 .Pro_Style:hover
 {
     transform: scale(1.10);
-    opacity: 0.8;
     
 }
 
