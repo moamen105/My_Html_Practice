@@ -142,6 +142,9 @@ header .main-nav a:hover
     z-index: 1;
 
 }
+
+.hover-review-js{opacity: 100%;}
+.hover-img-js{filter: brightness(0.3);}
 .text-product
 {
     display: flex;
