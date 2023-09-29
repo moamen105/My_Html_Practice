@@ -46,14 +46,25 @@ function unreview(x) {
 
 sun = document.getElementById("sun")
 moon = document.getElementById("moon")
+body = document.getElementsByTagName("body")[0]
+nav = document.getElementsByTagName("header")[0]
+product = document.querySelector(".Pro_Style")
 
 function darkMode()
 {
     sun.style.display=("block");
     moon.style.display=("none");
+    body.classList.toggle("darkMode-body")
+    nav.classList.toggle("darkMode-nav")
+    body.getElementsByTagName("h1")[0].classList.toggle("darkMode-title")
+    body.getElementsByTagName("p")[0].classList.toggle("darkMode-content")
+    product.classList.toggle("darkMode-product")
 }
 function lightMode()
 {
-    sun.style.display=("none");
-    moon.style.display=("block");
+    body.classList.toggle("darkMode-body")
+    nav.classList.toggle("darkMode-nav")
+    body.getElementsByTagName("h1")[0].classList.toggle("darkMode-title")
+    body.getElementsByTagName("p")[0].classList.toggle("darkMode-content")
+    product.classList.toggle("darkMode-product")
 }

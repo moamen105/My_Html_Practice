@@ -63,6 +63,11 @@ header .main-nav a:hover
 
 #sun:hover{cursor: pointer;}
 #moon:hover{cursor: pointer;}
+.darkMode-body{background-color: #001;color: white;}
+.darkMode-nav{background-color: #081c15;}
+.darkMode-title{color: white;}
+.darkMode-content{color: #fcf6bd;}
+.darkMode-product{background-color: #001; color: white;}
 
 
 
