@@ -43,6 +43,9 @@ function unreview(x) {
 
     }
 }
+function hello(){console.log("hello guys")}
+var videoEnd = document.querySelector("video");
+videoEnd.addEventListener("ended",hello);
 
 sun = document.getElementById("sun")
 moon = document.getElementById("moon")
@@ -56,15 +59,17 @@ function darkMode()
     moon.style.display=("none");
     body.classList.toggle("darkMode-body")
     nav.classList.toggle("darkMode-nav")
-    body.getElementsByTagName("h1")[0].classList.toggle("darkMode-title")
-    body.getElementsByTagName("p")[0].classList.toggle("darkMode-content")
+    document.querySelector("h1")[0].classList.toggle("darkMode-title")
+    body.querySelector("p")[0].classList.toggle("darkMode-content")
     product.classList.toggle("darkMode-product")
 }
 function lightMode()
 {
+    sun.style.display=("none");
+    moon.style.display=("block");
     body.classList.toggle("darkMode-body")
     nav.classList.toggle("darkMode-nav")
-    body.getElementsByTagName("h1")[0].classList.toggle("darkMode-title")
-    body.getElementsByTagName("p")[0].classList.toggle("darkMode-content")
+    document.querySelector("h1")[0].classList.toggle("darkMode-title")
+    body.querySelector("p")[0].classList.toggle("darkMode-content")
     product.classList.toggle("darkMode-product")
 }
