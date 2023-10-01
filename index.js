@@ -43,9 +43,7 @@ function unreview(x) {
 
     }
 }
-function hello(){console.log("hello guys")}
-var videoEnd = document.querySelector("video");
-videoEnd.addEventListener("ended",hello);
+
 
 sun = document.getElementById("sun")
 moon = document.getElementById("moon")
@@ -72,4 +70,15 @@ function lightMode()
     document.querySelector("h1")[0].classList.toggle("darkMode-title")
     body.querySelector("p")[0].classList.toggle("darkMode-content")
     product.classList.toggle("darkMode-product")
+}
+
+var number1 = "";
+var number2 = "";
+var isNumber1IsReady = false;
+
+function formNum(n){
+    if (!isNumber1IsReady){
+        number1 += n;
+        document.getElementById("displayNum").textContent = number1;
+    }
 }
