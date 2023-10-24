@@ -221,48 +221,8 @@ header .main-nav a:hover
     width: 900px;
     margin: auto;
 }
-/*---------------------------- Calculator ----------------------------*/
 
-.calculator{
-    background-color: #14213d;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 400px;
-    margin: 50px auto;
-    padding: 35px;
-    border-radius: 50px;
-    gap: 10px;
-    overflow: hidden;
-}
-.calculator h2{
-    grid-column: 1/5;
-    text-align: right;
-    background-color: #e5e5e5;
-    height: 50px;
-    border-radius: 10px;
-    padding: 20px 20px 0 20px;
-    color: #14213d;
-}
-.calculator h4{
-    background-color: #003566;
-    text-align: center;
-    padding-top: 20px;
-    margin: 0;
-    border-radius: 10px;
-    height: 45px;
-    font-size: 22px;
-    color: white;
-    transition-duration: 0.3s;
-}
-.calculator h4:hover{
-    background-color: #3a86ff;
-    box-shadow: 0px 0px 10px black;
-    cursor: pointer;
-}
-.operator{
-    background-color: #fb8500 !important;
-}
-.operator:hover{background-color: #ab6616 !important;}
+
 
 /*---------------------------- Footer Style ----------------------------*/
 
@@ -360,7 +320,7 @@ form a
     color: blue;
     text-decoration: none;
 }
-button
+.signUp-button
 {
     width: 100%;
     margin-top: 20px;
@@ -372,7 +332,7 @@ button
     font-weight: bold;
     color: white;
 }
-form button:hover
+form .signUp-button:hover
 {
     background-color: transparent;
     border: solid 1px #3c404a;

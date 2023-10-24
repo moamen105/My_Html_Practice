@@ -85,25 +85,22 @@ function lightMode()
     product.classList.toggle("darkMode-product")
 }
 
-//-------------------------------- calculator -----------------------------------
+
+//-------------------------------- contact us -----------------------------------
 //-------------------------------------------------------------------------------
 
-var number1 = "";
-var number2 = "";
-var isNumber1IsReady = false;
+let contactUs = document.querySelector(".contact-btn");
 
-function formNum(n){
-    if (!isNumber1IsReady){
-        number1 += n;
-        document.getElementById("displayNum").textContent = number1;
-    }
-    else{
-        number2 += n;
-        document.getElementById("displayNum").textContent = number2;
-    }
+function newFeedback(name,lastName){
+    this.name = name;
+    this.lastName = lastName;
 }
-
-function sum(n1,n2){       return n1+n2}
-function multiply(n1,n2){    return n1*n2}
-function subtract(n1,n2){    return n1-n2}
-function devide(n1,n2){    return n1/n2}
+function userFeedback(){
+    userName = document.querySelector("#name").value;
+    userLastName = document.querySelector("#lastName").value;
+    var feedback = new userFeedback() {
+        userName,
+        userLastName
+    }
+    document.getElementById("h1").textContent = userLastName;
+}
